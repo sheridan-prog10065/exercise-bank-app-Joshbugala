@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              x:Class="BankApp.BankInfoPage"
+              Title="Bank Information">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20">
+            <Label Text="AccountType:" FontSize="14"/>
+            <Entry x:Name="AccountTypeEntry" Placeholder="Enter the AccountType" FontSize="17"/>
+
+            <Label Text="AccountNumber:" FontSize="14"/>
+            <Entry x:Name="AccountNumberEntry" Placeholder="Enter the Account Number" FontSize="17"/>
+
+            <Label Text="Balance:" FontSize="14"/>
+            <Entry x:Name="BalanceEntry" Placeholder="Enter the Balance" FontSize="17"/>
+
+           
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

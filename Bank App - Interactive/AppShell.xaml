@@ -6,9 +6,13 @@
     xmlns:local="clr-namespace:BankApp"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Bank App"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <Tab Title="BankInfo">
+            <ShellContent
+            ContentTemplate="{DataTemplate local:BankInfoPage}"
+            Route="BankInfoPage" />
+        </Tab>
+
+    </TabBar>
 
 </Shell>
